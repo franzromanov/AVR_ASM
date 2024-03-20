@@ -17,7 +17,6 @@
  *
  * Author: moh.naufal Hizbullah
  * Institution: Institut Teknologi Kalimantan
- *
  */
 
 .data
