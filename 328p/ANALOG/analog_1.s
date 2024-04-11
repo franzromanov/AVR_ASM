@@ -12,7 +12,7 @@ init_analog:
     sts ADCSRA, r16
     
 main:
-	sbi DDRB,5
+    sbi DDRB,5
     call read_analog
     cpse r29, 0x03
     cbi PORTB, 5
