@@ -1,0 +1,1 @@
+avrdude -C"/home/neocrackers/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/etc/avrdude.conf" -v -p atmega328p -c usbasp -P usb -B 10 -U flash:w:"/home/neocrackers/.arduino15/packages/arduino/hardware/avr/1.8.5/bootloaders/optiboot/optiboot_atmega328.hex":i -F
